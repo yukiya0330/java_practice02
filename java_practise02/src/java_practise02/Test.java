@@ -2,13 +2,13 @@ package java_practise02;
 
 public class Test {
 
-	public static void main(String[] args) {
-
-		int[] scores = {20, 30, 40, 50, 80};
-
-		for(int value : scores) {
-			System.out.println(value);
-		}
-	}
+//	  public static int add(int x, int y) {
+//		    int ans = x + y;
+//		    return ans;
+//		  }
+//		  public static void main(String[] args) {
+//		    int ans = add(100, 10);
+//		    System.out.println("100 + 10 = " + ans);
+//		  }
 
 }
