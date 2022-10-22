@@ -1,12 +1,8 @@
 package java_practise02;
 
 public class Sample {
-	private String value;
-	public Sample(String value) {
-		this.value = value;
+	int num;
+	public Sample(int num) {
+		this.num = num;
 	}
-	public void test() {
-		System.out.println(value);
-	}
-
 }
