@@ -1,3 +1,4 @@
+package java_practise02;
 public class P_6_1 {
 
 	public static void main(String[] args) {
