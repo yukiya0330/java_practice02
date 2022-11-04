@@ -1,9 +1,25 @@
 package game;
 
 public class Hero {
-		String name;
-		int hp;
-		Sword sword;
+		private String name;
+		private int hp;
+		public int getHp() {
+			return hp;
+		}
+
+		public void setHp(int hp) {
+			this.hp = hp;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		private Sword sword;
 
 		public void attack() {
 			System.out.println(this.name + "は攻撃した!");
@@ -41,4 +57,12 @@ public class Hero {
 				this.hp = 100;
 				this.name = "ダミー";
 		 }
+
+		public Sword getSword() {
+			return sword;
+		}
+
+		public void setSword(Sword sword) {
+			this.sword = sword;
+		}
 }
